@@ -1,0 +1,109 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Dhruv", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Dhruv.", "I'm Dhruv!", "I'm Dhruv aka Tech With Dhruv."],
+         "context_set": ""
+        },
+        
+        {"tag": "hours",
+                "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+                "responses": ["We are open 24*7 for you"],
+                "context_set": ""
+               },
+        {"tag":"asthma",
+                "patterns":["what are symptoms of asthma"],
+                "responses": ["symptoms of asthma include Shortness of breath,Chest tightness or pain,Trouble sleeping caused by shortness of breath, coughing or wheezing."]
+        },
+
+        {"tag":"asthma1", 
+                "patterns":["what are causes of asthma","what actions are responsible for asthma" ],
+                "responses":["Physical activity (exercise-induced asthma) ,Respiratory infections, such as the common cold,Air pollutants and irritants"]
+
+        },
+
+        {"tag":"asthma2",
+               "patterns":["don't breathe","my coughing don't stopping","breathing heavily"],
+               "responses":["get your enhaler asap"]
+        },
+        {"tag":"tb",
+              "patterns":["what is tb","how serious is tb"],
+              "responses":["A potentially serious infectious bacterial disease that mainly affects the lungs.also called as Tuberculosis"]
+        },
+        {"tag":"tb1",
+              
+              "patterns":["symptoms of tb","indications of tb"],
+              "responses":["A cough that lasts more than 3 weeks \n Chest pain \n Coughing up blood \n Feeling tired all the time \n Night sweats"]
+        },
+        {"tag":"tb2",
+               "patterns":["cure of tb","remedies of tb"],
+               "responses":["Your doctor will treat active TB with a combination of medications. You’ll take them for 6 to 12 months"]
+        },
+       {"tag": "stroke",
+                "patterns": ["a stroke "],
+                "responses": ["An injection of tPA is usually given through a vein in the arm. This potent clot-busting drug ideally is given within three hours. In some instances, tPA can be given up to 4.5 hours after stroke symptoms begin"],
+                "context_set": ""
+      },
+     
+     {"tag":"headache",
+                "patterns":["Iam having a headache","pain in my head","head pain"],
+                 "responses":["Drink adequate amount of water, Lie down have some sleep"],
+                 "context_set":""
+     },
+    {
+       "tag":"bleeding",
+          "patterns":["I cut my hand"],
+           "responses":["Clean the wound, Apply antiseptic","stop the bleeding","Apply bandage on the wound"],
+           "context_set":""
+      },
+     {
+       "tag":"bleeding1",
+           "patterns":["Still bleeds"],
+           "responses":["Go to the nearest hospital"],
+           "context_set":""
+},
+{  "tag":"dizziness",
+         "patterns":["Iam feeling nauseous","Iam feeling dizzy"],
+         "responses":["Lie down ,Stay hydrated"],
+         "context_set":" "
+},
+{ 
+      "tag":"anxiety",
+              "patterns":["i am having a anxiety attack","i am feeling panick"],
+              "responses":["take a deep breath, be calm and consult a doctor"]
+
+              
+              
+  },
+{
+         "tag":"cold",
+         "patterns":["suffering from cold","i have cold","cold"],
+         "responses":["The common cold, also known simply as a cold, is a viral infectious disease of the upper respiratory tract that primarily affects the nose. The throat, sinuses, and larynx may also be affected. Signs and symptoms may appear less than two days after exposure to the virus."]
+
+}
+
+    
+ 
+                           
+
+
+
+         
+                                                  
+
+   ]
+}

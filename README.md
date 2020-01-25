@@ -1,2 +1,4 @@
 # SIH_Backend
-In this we made backend for health care chatbot using node as  well as ML . 
+For bulding this :
+1. install python as wellm as libraries used in this code.
+2. run using command node index.js and also you can install nodemon for saving your time.

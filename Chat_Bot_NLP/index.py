@@ -162,7 +162,7 @@ def chatbot_response(msg):
 
 
 # user part 
-print("Ask  what do  you wanna ask ...")
+print("\n\n\nAsk  what do  you wanna ask ...")
 while(True): 
     msg = input()
     if msg =='exit':
